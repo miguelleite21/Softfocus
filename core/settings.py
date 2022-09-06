@@ -30,7 +30,7 @@ SECRET_KEY = getenv("SECRET_KEY")
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG =getenv("DEBUG",True)
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['localhost', 'api-loss-communication.herokuapp.com']
 
 
 # Application definition
